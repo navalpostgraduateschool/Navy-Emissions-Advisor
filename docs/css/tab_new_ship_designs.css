@@ -3,6 +3,9 @@
     font-family: 'Display', sans-serif;
 }
 
+.putaway {
+    display: none;
+}
 
 .physDims {
     background-color: #f5f5f5; /* Common background color for table headers */
