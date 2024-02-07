@@ -1,7 +1,13 @@
 
-<div class="background container-fluid">
+<style type="text/css">
+  .putaway {
+    display: none;
+  }
+</style>
+
+<!-- <div class="background container-fluid"> -->
   
-<!-- <div class="container"> -->
+<div class="container">
 <div class="row" id="new-ship-designs-main-view">
   <h3> Mission Effectiveness for New Ship Designs </h3>
   
@@ -40,11 +46,7 @@
   
   </div>
   <!--Mission Capabilities-->
-  <style type="text/css">
-    .putaway {
-      display: none;
-    }
-  </style>
+
 
   <div class="missionCaps col-md-6">
   <table>
@@ -102,7 +104,7 @@
             <p>Estimated Time on Station
             <input type="number" id="tos" name="tos" value="0"></p>
           </div>
-
+        </div>
       </td>
     </tr>
     <tr>
@@ -114,8 +116,9 @@
     </td>
     </tr>
   </table>
-  </div>
-</div>
+  </div> <!-- end column -->
+
+</div> <!-- end row -->
 <div class="row">
 
   <!-- Output Section (Blank Until Output Style Determined)-->
@@ -125,10 +128,9 @@
         <th>Output Information</th>
       </tr>
     </table>
-  </div>
-  </div>
-</div>
-
+  </div>  <!-- end column -->
+</div>  <!-- end row -->
+</div>  <!-- end container -->
 <!-- Script for Hiding Undesired Boxes-->
 <script type="text/javascript">
   function hideEm(answer) {
